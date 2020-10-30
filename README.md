@@ -2,7 +2,7 @@
 
 We are now going to move away generating Bernoulli random variables and move towards generating a random variable that can take on any value in the set {0,1,2,3,4}.  The probability mass distribution for this random variable will be:
 
-![](https://render.githubusercontent.com/render/math?math=P(X=0)=0.5\qquad\P(X=1)=0.1\qquad\P(X=2)=0.2\qquad\P(X=3)=0.05\qquad\P(X=0.15)=0.15)
+![](https://render.githubusercontent.com/render/math?math=P(X=0)=0.5\qquad\P(X=1)=0.1\qquad\P(X=2)=0.2\qquad\P(X=3)=0.05\qquad\P(X=4)=0.15)
 
 I have started writing a function called `myvariable` that can be used to generate this type of random variable.  Your task is to complete this function and to also complete the process of filling in the array called `probs` that should contain the five elements of the probability mass function that is defined above.  Lastly, I would also like you to compute the expectation and the variance for this random variable and to store these quantities in the variables called (unsurprisingly) `expectation` and `variance`.
 
