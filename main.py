@@ -7,7 +7,4 @@ def myvariable( probs ) :
   # You will need to write the rest of this function here
   
 probs = np.array([0.5, 0.1, ])  # You need to fill in the rest of this vector
-# You need to add code to calculate the expectation and the variance from
-# the vector of probabilities given above here.
-
-print( expectation, variance, myvariable( probs ), myvariable( probs ), myvariable( probs ) )
+print( myvariable( probs ), myvariable( probs ), myvariable( probs ) )
